@@ -24,18 +24,8 @@ h3,h4,h5{
     font-size: 2em;
 }
 
-.sidebar{
-width: 20%;
-float: left;
-margin-top: 70px;
-background-color: rgb(52, 58, 64);
-color: white;
-height: 714px;
-padding-top: 20px;
-}
-
 .main{
-    width: 80%;
+    width: 100%;
     float: left;
 }
 
@@ -49,11 +39,6 @@ h3 .justify-content-end .copyright{
     float: none;
 }
 
-.test{
-    width: 100%;
-    height: 100px;
-    color: white;
-}
 
 .white{
     background-color: #fff;
@@ -73,20 +58,6 @@ h3 .justify-content-end .copyright{
     background-color: rgb(52, 58, 64);
 }
 
-.carousel, .carousel-inner{
-    height: 714px;
-    width: 100%;
-}
-
-.carousel{
-    margin-top: 74px;
-}
-.carousel-title{
-    margin-top: -900px;
-    color: #343a40;
-    font-size: 4em;
-    font-weight: bold;
-}
 .navbar {
     -webkit-box-shadow: 0 8px 6px -6px #999;
     -moz-box-shadow: 0 8px 6px -6px #999;
@@ -98,3 +69,22 @@ h3 .justify-content-end .copyright{
     color: rgba(255, 255, 255, .5);
     align-content: flex-end;
 }
+.link-bottom-nav{
+    font-family: 'EB Garamond', serif;
+    color: rgba(255, 255, 255, .5);
+    align-content: flex-end;
+}
+
+.carousel img {
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 100%;
+    max-width: none;
+    object-fit: contain;
+    overflow: hidden;
+    /* position: absolute; */
+    /* object-fit: cover; */
+  }
+
+
