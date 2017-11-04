@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond|Playfair+Display');
+
+h1,h2{
+    font-family: 'Playfair Display', serif;
+}
+
+h3,h4,h5{
+    font-family: 'EB Garamond', serif;
+}
+
+
+.nav-text{
+    font-family: 'Playfair Display', serif;
+}
+
+
+.navbar-dark .navbar-nav .nav-link{
+    font-family: 'EB Garamond', serif;
+    padding-left: 50px;
+    font-size: 1.2em;
+}
+
+.navbar-brand{
+    font-size: 2em;
+}
+
+.sidebar{
+width: 20%;
+float: left;
+margin-top: 70px;
+background-color: rgb(52, 58, 64);
+color: white;
+height: 714px;
+padding-top: 20px;
+}
+
+.main{
+    width: 80%;
+    float: left;
+}
+
+h3 .justify-content-end .copyright{
+    color: rgba(52, 58, 64,.5)
+}
+
+.colorTest{
+    padding: 100px;
+    width: 100%;
+    float: none;
+}
+
+.test{
+    width: 100%;
+    height: 100px;
+    color: white;
+}
+
+.white{
+    background-color: #fff;
+    color: black;
+}
+
+.lightGray{
+    background-color: rgba(255, 255, 255,.5);
+    color: black;
+}
+
+.red{
+    background-color: #67282f;
+}
+
+.gray{
+    background-color: rgb(52, 58, 64);
+}
+
+.carousel, .carousel-inner{
+    height: 714px;
+    width: 100%;
+}
+
+.carousel{
+    margin-top: 74px;
+}
+.carousel-title{
+    margin-top: -900px;
+    color: #343a40;
+    font-size: 4em;
+    font-weight: bold;
+}
+.navbar {
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+}
+.link-text-copyright{
+    font-size: 1em;
+    font-family: 'EB Garamond', serif;
+    color: rgba(255, 255, 255, .5);
+    align-content: flex-end;
+}
